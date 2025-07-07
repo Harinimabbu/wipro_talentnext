@@ -1,11 +1,13 @@
 package java_fundamentals;
+
 import java.util.*;
+
 public class Question12 {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
-		switch(n) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		switch (n) {
 		case 1:
 			System.out.println("January");
 		case 2:
@@ -30,8 +32,7 @@ public class Question12 {
 			System.out.println("November");
 		case 12:
 			System.out.println("December");
-		case :
-			System.out.println("Please enter the month in numbers");
+
 		default:
 			System.out.println("Invalid match");
 		}
