@@ -80,7 +80,6 @@ public class mini_project {
                 }
 
                 int salary = emp.basic + emp.hra + da - emp.it;
-
                 // Output
                 System.out.println("Emp No.\tEmpName\tDepartment\tDesignation\tSalary");
                 System.out.println(emp.empNo + "\t" + emp.name + "\t" + emp.department + "\t\t" + designation + "\t\t" + salary);
